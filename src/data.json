@@ -1,0 +1,49 @@
+{
+  "posts": [
+    {
+      "id": "1",
+      "author": "Krina Wibisana",
+      "content": "First comment",
+      "timestamp": "2025-01-28T14:30:00Z",
+      "comments": [
+        {
+          "id": "2",
+          "author": "Riyan Rizky Sundari",
+          "content": "Reply to first comment",
+          "timestamp": "2025-01-28T15:00:00Z",
+          "comments": [
+            {
+              "id": "3",
+              "author": "Unaisah Alfiyatur Rizqy",
+              "content": "Reply to Riyan Rizky Sundari's comment on first comment",
+              "timestamp": "2025-01-28T15:30:00Z",
+              "comments": []
+            }
+          ]
+        },
+        {
+          "id": "4",
+          "author": "Umaiza Alfiyatur Rizqy",
+          "content": "Reply to first comment",
+          "timestamp": "2025-01-28T15:10:00Z",
+          "comments": []
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "author": "Ulfaira Alfiyatur Rizqy",
+      "content": "Second comment",
+      "timestamp": "2025-01-29T09:00:00Z",
+      "comments": [
+        {
+          "id": "6",
+          "author": "Ukasya Alfiyatur Rizqy",
+          "content": "Reply to second comment",
+          "timestamp": "2025-01-29T09:20:00Z",
+          "comments": []
+        }
+      ]
+    }
+  ]
+}

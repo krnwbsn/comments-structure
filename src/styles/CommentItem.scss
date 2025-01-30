@@ -1,0 +1,35 @@
+@import './App.scss';
+
+.comment-item {
+  display: flex;
+  flex-direction: column;
+  padding-top: 12px;
+  max-width: 600px;
+
+  .comment-content {
+    background: $button-bg-dark;
+    color: $text-dark;
+    padding: 12px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .comment-author {
+    font-weight: bold;
+    color: $primary-color;
+    margin-bottom: 5px;
+  }
+
+  .comment-timestamp {
+    font-size: 0.8rem;
+    color: lighten($text-dark, 30%);
+    margin-top: 5px;
+  }
+
+  .comment-replies {
+    margin-left: 4px;
+    padding-left: 10px;
+    border-left: 1px solid lighten($primary-color, 20%);
+  }
+}
